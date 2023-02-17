@@ -1,0 +1,48 @@
+#root,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.app {
+    height: 100%;
+    background: url('./images/presidential-candidatates-2023.jpeg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: whitesmoke;
+    width: 60%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 25px;
+    padding: 2%;
+    box-shadow: 5px 5px;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    height: 580px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+
+
+
+@media only screen and (max-width:600px){
+    .card{
+        width: 80%;
+        height: 30%;
+    }
+}
